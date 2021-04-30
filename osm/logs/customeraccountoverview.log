@@ -1,0 +1,113 @@
+2021-04-30 01:04:05 [WARN ] [HikariPool-1 housekeeper] c.z.h.p.HikariPool  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h16m32s669ms608µs). 
+2021-04-30 07:12:41 [WARN ] [HikariPool-1 housekeeper] c.z.h.p.HikariPool  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h6m34s598ms992µs600ns). 
+2021-04-30 13:52:48 [WARN ] [HikariPool-1 housekeeper] c.z.h.p.HikariPool  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h40m6s485ms25µs300ns). 
+2021-04-30 13:56:50 [INFO ] [Thread-7] o.s.o.j.LocalContainerEntityManagerFactoryBean  - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-04-30 13:56:50 [INFO ] [Thread-7] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+2021-04-30 13:56:50 [INFO ] [Thread-7] o.s.s.c.ThreadPoolTaskExecutor  - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-04-30 13:56:50 [WARN ] [Thread-7] o.s.b.f.s.DisposableBeanAdapter  - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200] 
+2021-04-30 13:56:50 [INFO ] [Thread-7] c.z.h.HikariDataSource  - HikariPool-1 - Shutdown initiated... 
+2021-04-30 13:56:50 [INFO ] [Thread-7] c.z.h.HikariDataSource  - HikariPool-1 - Shutdown completed. 
+2021-04-30 13:56:51 [INFO ] [restartedMain] c.b.j.o.OsmApplication  - Starting OsmApplication on DESKTOP-TVHF08S with PID 11568 (C:\Users\BPradhan\osm\target\classes started by Krush in C:\Users\BPradhan\osm) 
+2021-04-30 13:56:51 [DEBUG] [restartedMain] c.b.j.o.OsmApplication  - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE 
+2021-04-30 13:56:51 [INFO ] [restartedMain] c.b.j.o.OsmApplication  - No active profile set, falling back to default profiles: default 
+2021-04-30 13:56:51 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate  - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2021-04-30 13:56:51 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate  - Finished Spring Data repository scanning in 18ms. Found 2 JPA repository interfaces. 
+2021-04-30 13:56:51 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer  - Tomcat initialized with port(s): 8080 (http) 
+2021-04-30 13:56:51 [INFO ] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 681 ms 
+2021-04-30 13:56:52 [INFO ] [restartedMain] c.z.h.HikariDataSource  - HikariPool-2 - Starting... 
+2021-04-30 13:56:52 [INFO ] [restartedMain] c.z.h.HikariDataSource  - HikariPool-2 - Start completed. 
+2021-04-30 13:56:52 [INFO ] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration  - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-04-30 13:56:52 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor  - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-04-30 13:56:52 [INFO ] [task-1] o.h.j.i.u.LogHelper  - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-04-30 13:56:52 [INFO ] [task-1] o.h.d.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-04-30 13:56:52 [WARN ] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-04-30 13:56:52 [INFO ] [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-04-30 13:56:52 [INFO ] [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean  - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-04-30 13:56:52 [INFO ] [task-2] o.s.b.d.a.OptionalLiveReloadServer  - LiveReload server is running on port 35729 
+2021-04-30 13:56:52 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer  - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-04-30 13:56:52 [INFO ] [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener  - Triggering deferred initialization of Spring Data repositories… 
+2021-04-30 13:56:52 [INFO ] [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener  - Spring Data repositories initialized! 
+2021-04-30 13:56:52 [INFO ] [restartedMain] c.b.j.o.OsmApplication  - Started OsmApplication in 1.17 seconds (JVM running for 80002.511) 
+2021-04-30 13:56:52 [INFO ] [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged 
+2021-04-30 13:57:45 [INFO ] [Thread-10] o.s.o.j.LocalContainerEntityManagerFactoryBean  - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-04-30 13:57:45 [INFO ] [Thread-10] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+2021-04-30 13:57:45 [INFO ] [Thread-10] o.s.s.c.ThreadPoolTaskExecutor  - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-04-30 13:57:45 [WARN ] [Thread-10] o.s.b.f.s.DisposableBeanAdapter  - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200] 
+2021-04-30 13:57:45 [INFO ] [Thread-10] c.z.h.HikariDataSource  - HikariPool-2 - Shutdown initiated... 
+2021-04-30 13:57:45 [INFO ] [Thread-10] c.z.h.HikariDataSource  - HikariPool-2 - Shutdown completed. 
+2021-04-30 13:57:46 [INFO ] [restartedMain] c.b.j.o.OsmApplication  - Starting OsmApplication on DESKTOP-TVHF08S with PID 11568 (C:\Users\BPradhan\osm\target\classes started by Krush in C:\Users\BPradhan\osm) 
+2021-04-30 13:57:46 [DEBUG] [restartedMain] c.b.j.o.OsmApplication  - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE 
+2021-04-30 13:57:46 [INFO ] [restartedMain] c.b.j.o.OsmApplication  - No active profile set, falling back to default profiles: default 
+2021-04-30 13:57:46 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate  - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2021-04-30 13:57:46 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate  - Finished Spring Data repository scanning in 16ms. Found 2 JPA repository interfaces. 
+2021-04-30 13:57:46 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer  - Tomcat initialized with port(s): 8080 (http) 
+2021-04-30 13:57:46 [INFO ] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 329 ms 
+2021-04-30 13:57:46 [INFO ] [restartedMain] c.z.h.HikariDataSource  - HikariPool-3 - Starting... 
+2021-04-30 13:57:46 [INFO ] [restartedMain] c.z.h.HikariDataSource  - HikariPool-3 - Start completed. 
+2021-04-30 13:57:46 [INFO ] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration  - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-04-30 13:57:46 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor  - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-04-30 13:57:46 [INFO ] [task-1] o.h.j.i.u.LogHelper  - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-04-30 13:57:46 [INFO ] [task-1] o.h.d.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-04-30 13:57:46 [WARN ] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-04-30 13:57:46 [INFO ] [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-04-30 13:57:46 [INFO ] [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean  - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-04-30 13:57:46 [INFO ] [task-2] o.s.b.d.a.OptionalLiveReloadServer  - LiveReload server is running on port 35729 
+2021-04-30 13:57:46 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer  - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-04-30 13:57:46 [INFO ] [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener  - Triggering deferred initialization of Spring Data repositories… 
+2021-04-30 13:57:46 [INFO ] [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener  - Spring Data repositories initialized! 
+2021-04-30 13:57:46 [INFO ] [restartedMain] c.b.j.o.OsmApplication  - Started OsmApplication in 0.579 seconds (JVM running for 80056.756) 
+2021-04-30 13:57:46 [INFO ] [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged 
+2021-04-30 13:58:14 [INFO ] [main] c.b.j.o.OsmApplicationTests  - Starting OsmApplicationTests on DESKTOP-TVHF08S with PID 17648 (started by Krush in C:\Users\BPradhan\osm) 
+2021-04-30 13:58:14 [DEBUG] [main] c.b.j.o.OsmApplicationTests  - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE 
+2021-04-30 13:58:14 [INFO ] [main] c.b.j.o.OsmApplicationTests  - No active profile set, falling back to default profiles: default 
+2021-04-30 13:58:14 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate  - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2021-04-30 13:58:14 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate  - Finished Spring Data repository scanning in 95ms. Found 2 JPA repository interfaces. 
+2021-04-30 13:58:16 [INFO ] [main] o.s.s.c.ThreadPoolTaskExecutor  - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-04-30 13:58:16 [INFO ] [main] c.z.h.HikariDataSource  - HikariPool-1 - Starting... 
+2021-04-30 13:58:16 [INFO ] [main] c.z.h.HikariDataSource  - HikariPool-1 - Start completed. 
+2021-04-30 13:58:16 [INFO ] [task-1] o.h.j.i.u.LogHelper  - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-04-30 13:58:16 [INFO ] [task-1] o.h.Version  - HHH000412: Hibernate ORM core version 5.4.21.Final 
+2021-04-30 13:58:16 [INFO ] [task-1] o.h.a.c.Version  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2021-04-30 13:58:16 [WARN ] [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-04-30 13:58:17 [INFO ] [task-1] o.h.d.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-04-30 13:58:17 [INFO ] [main] o.s.b.a.h.H2ConsoleAutoConfiguration  - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-04-30 13:58:17 [INFO ] [main] o.s.d.r.c.DeferredRepositoryInitializationListener  - Triggering deferred initialization of Spring Data repositories… 
+2021-04-30 13:58:17 [INFO ] [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-04-30 13:58:17 [INFO ] [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean  - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-04-30 13:58:18 [INFO ] [main] o.s.d.r.c.DeferredRepositoryInitializationListener  - Spring Data repositories initialized! 
+2021-04-30 13:58:18 [INFO ] [main] c.b.j.o.OsmApplicationTests  - Started OsmApplicationTests in 4.48 seconds (JVM running for 5.323) 
+2021-04-30 13:58:18 [INFO ] [SpringContextShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean  - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-04-30 13:58:18 [INFO ] [SpringContextShutdownHook] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down' 
+2021-04-30 13:58:18 [WARN ] [SpringContextShutdownHook] o.h.e.j.s.SqlExceptionHelper  - SQL Error: 90121, SQLState: 90121 
+2021-04-30 13:58:18 [ERROR] [SpringContextShutdownHook] o.h.e.j.s.SqlExceptionHelper  - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200] 
+2021-04-30 13:58:18 [WARN ] [SpringContextShutdownHook] o.h.e.j.s.SqlExceptionHelper  - SQL Error: 90121, SQLState: 90121 
+2021-04-30 13:58:18 [ERROR] [SpringContextShutdownHook] o.h.e.j.s.SqlExceptionHelper  - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200] 
+2021-04-30 13:58:18 [WARN ] [SpringContextShutdownHook] o.s.b.f.s.DisposableBeanAdapter  - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution 
+2021-04-30 13:58:18 [INFO ] [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor  - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-04-30 13:58:18 [INFO ] [SpringContextShutdownHook] c.z.h.HikariDataSource  - HikariPool-1 - Shutdown initiated... 
+2021-04-30 13:58:18 [INFO ] [SpringContextShutdownHook] c.z.h.HikariDataSource  - HikariPool-1 - Shutdown completed. 
+2021-04-30 13:59:07 [INFO ] [restartedMain] c.b.j.o.OsmApplication  - Starting OsmApplication on DESKTOP-TVHF08S with PID 30652 (C:\Users\BPradhan\osm\target\classes started by Krush in C:\Users\BPradhan\osm) 
+2021-04-30 13:59:07 [DEBUG] [restartedMain] c.b.j.o.OsmApplication  - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE 
+2021-04-30 13:59:07 [INFO ] [restartedMain] c.b.j.o.OsmApplication  - No active profile set, falling back to default profiles: default 
+2021-04-30 13:59:07 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-04-30 13:59:07 [INFO ] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-04-30 13:59:08 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate  - Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2021-04-30 13:59:08 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate  - Finished Spring Data repository scanning in 64ms. Found 2 JPA repository interfaces. 
+2021-04-30 13:59:09 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer  - Tomcat initialized with port(s): 8080 (http) 
+2021-04-30 13:59:09 [INFO ] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 1628 ms 
+2021-04-30 13:59:09 [INFO ] [restartedMain] c.z.h.HikariDataSource  - HikariPool-1 - Starting... 
+2021-04-30 13:59:09 [INFO ] [restartedMain] c.z.h.HikariDataSource  - HikariPool-1 - Start completed. 
+2021-04-30 13:59:09 [INFO ] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration  - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-04-30 13:59:10 [INFO ] [restartedMain] o.s.s.c.ThreadPoolTaskExecutor  - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-04-30 13:59:10 [INFO ] [task-1] o.h.j.i.u.LogHelper  - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-04-30 13:59:10 [WARN ] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-04-30 13:59:10 [INFO ] [task-1] o.h.Version  - HHH000412: Hibernate ORM core version 5.4.21.Final 
+2021-04-30 13:59:10 [INFO ] [task-1] o.h.a.c.Version  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2021-04-30 13:59:10 [INFO ] [task-1] o.h.d.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-04-30 13:59:10 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer  - LiveReload server is running on port 35729 
+2021-04-30 13:59:10 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer  - Tomcat started on port(s): 8080 (http) with context path '' 
+2021-04-30 13:59:10 [INFO ] [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener  - Triggering deferred initialization of Spring Data repositories… 
+2021-04-30 13:59:11 [INFO ] [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-04-30 13:59:11 [INFO ] [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean  - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-04-30 13:59:11 [INFO ] [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener  - Spring Data repositories initialized! 
+2021-04-30 13:59:11 [INFO ] [restartedMain] c.b.j.o.OsmApplication  - Started OsmApplication in 3.987 seconds (JVM running for 4.41) 

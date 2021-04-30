@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  
+logging.config: config/logback-sci-tickets.xml
+  
+spring.datasource:
+        url: jdbc:h2:mem:testdb
+        driverClassName: org.h2.Driver
+        username: sa
+        password: password
+        
+spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+
+spring.h2.console.enabled: true

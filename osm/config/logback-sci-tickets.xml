@@ -1,0 +1,38 @@
+<configuration debug="true">
+   
+
+    <appender name="osm-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss} [%-5level] [%thread] %c{1} %X - %message %n</pattern>
+        </encoder>
+        
+        <file>logs/osm.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+           
+            <fileNamePattern>logs/osm-%d{yyyy-MM-dd}.log</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+
+    <!-- To turn on logging, change the level to TRACE >
+    <logger name="org.apache.cxf.services" level="INFO" additivity="false"><appender-ref ref="CXF-LOG" /></logger>
+    <logger name="com.charter.provisioning.breakglass.cxf" level="INFO" additivity="false"><appender-ref ref="CXF-LOG" /></logger>
+    <logger name="org.apache.cxf.interceptor.LoggingInInterceptor" level="INFO" additivity="false"><appender-ref ref="CXF-LOG" /></logger>
+    <logger name="org.apache.cxf.interceptor.LoggingOutInterceptor" level="INFO" additivity="false"><appender-ref ref="CXF-LOG" /></logger>
+    <logger name="com.spectrum.sci.scitool" level="ERROR" additivity="false"><appender-ref ref="CustomerAccountOverview-LOG" /></logger>
+    <logger name="org.springframework" level="INFO" additivity="false"><appender-ref ref="CustomerAccountOverview-LOG" /> </logger>
+    <logger name="org.springframework.security.weborg.springframework.http.converter.json" level="INFO" additivity="false"><appender-ref ref="CustomerAccountOverview-LOG" /> </logger-->
+    
+    <logger name="com.bp.javaonboard.osm" level="DEBUG" additivity="false"><appender-ref ref="osm-LOG" /></logger>
+    <logger name="httpclient" level="WARN" />
+    <logger name="org.apache" level="WARN" />
+    <logger name="org.springframework.context" level="WARN" />
+    <logger name="org.springframework.core" level="WARN" />
+    <logger name="org.springframework.beans" level="WARN" />
+    <logger name="org.springframework.web" level="WARN" />
+    <logger name="org.springframework.security" level="INFO" />
+
+    <root level="INFO" additivity="false">
+        <appender-ref ref="osm-LOG" />
+    </root>
+</configuration>
