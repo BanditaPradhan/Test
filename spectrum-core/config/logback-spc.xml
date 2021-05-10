@@ -1,0 +1,30 @@
+<configuration debug="true">
+
+    <logger name="com.spectrum.sci.spectrumcore" level="${log.level}" />
+    <logger name="httpclient" level="WARN" />
+    <logger name="org.apache" level="WARN" />
+    <logger name="org.springframework.context" level="WARN" />
+     <logger name="org.springframework.core" level="WARN" />
+    <logger name="org.springframework.beans" level="WARN" />
+    <logger name="org.springframework.web" level="WARN" />
+    <logger name="org.springframework.security" level="DEBUG" />
+    
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/spc.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/spc.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxHistory>10</maxHistory>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>5MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%d{YYYY-MM-dd HH:mm:ss.SSS}] [%level] [Context:%logger{0}] [%X] [%msg]%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="FILE" />
+    </root>
+	
+</configuration>

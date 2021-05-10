@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: spectrum-core
+
+info:
+   app:
+     version: 1.0
+     name: Spectrum Core
+     description : Spectrum Core Platform (SPC) provides a biller resilient Web API to retrieve and manipulate customer information. 
+
+logging:
+  config: config/logback-spc.xml
+       
+server:
+     port: 8080
+     #context-path: spectrum-core
+     session:
+       timeout: 2700 
+       
+spc.service:
+      customerUrl: https://spectrumcoreuat.charter.com/spectrum-core/services/customer/ept/getCustomerV1x0
+      accountUrl: https://spectrumcoreuat.charter.com/spectrum-core/services/account/ept/getAccountV1x1
+       
+       
+       
+
+     
+     
