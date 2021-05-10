@@ -25,11 +25,6 @@ public class PackDataBaseConfig {
 				      .password(packDbPassword)
 				      .build();
 		
-		/*
-		com.zaxxer.hikari.HikariDataSource hikariDs = new com.zaxxer.hikari.HikariDataSource();
-		hikariDs.setDataSource(ds);
-		hikariDs.setConnectionTestQuery("select 1 from dual"); */
-	
 		return ds;
 	}
 }
