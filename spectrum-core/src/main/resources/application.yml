@@ -13,13 +13,13 @@ logging:
        
 server:
      port: 8080
-     #context-path: spectrum-core
+     context-path: spectrum-core
      session:
        timeout: 2700 
        
 spc.service:
-      customerUrl: https://spectrumcoreuat.charter.com/spectrum-core/services/customer/ept/getCustomerV1x0
-      accountUrl: https://spectrumcoreuat.charter.com/spectrum-core/services/account/ept/getAccountV1x1
+      customerUrl: https://host:port/spectrum-core/services/customer/ept/getCustomerV1x0
+      accountUrl: https://host:port/spectrum-core/services/account/ept/getAccountV1x1
        
        
        
