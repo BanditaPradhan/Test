@@ -1,0 +1,21 @@
+server:
+  port: 9056
+  
+osm.service.url: http://localhost:9055/osmfallout/osmOrderCleanUpByTask
+osm.service.username: TOS_Automation
+osm.service.password: TOS_Automation$123
+
+logging.config: config/logback.xml
+
+pack:
+   database:
+     driver.class: oracle.jdbc.OracleDriver
+     #url: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=98.8.138.144)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=packrat)))
+     url: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=98.8.148.14)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=pckrt01p_nce05_svc.nextgen.nce.charter.com)))
+     username: apo
+     password: apo12c
+     init.pool.size: 4
+     max.pool.size: 10
+   
+osm.service.fallout.moveindate : 08-APR-20
+osm.service.fallout.task : UpdateServiceConfiginUIM_FalloutTask
